@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "online_test/wsgi.py",
-        "use": "@vercel/python"
+        "use": "@vercel/python",
          "config": { "maxLambdaSize":"15mb" ,"runtime": "python3.13.0" }
       },
       {
